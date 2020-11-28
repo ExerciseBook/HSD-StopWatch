@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:button_1min"
+        ohos:top_padding="20fp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="1分钟"
+        />
+
+    <Button
+        ohos:id="$+id:button_3min"
+        ohos:top_padding="5fp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="3分钟"
+        />
+
+    <Button
+        ohos:id="$+id:button_5min"
+        ohos:top_padding="5fp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="5分钟"
+        />
+
+
+    <Text
+        ohos:id="$+id:text_screen"
+        ohos:top_padding="20fp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="01 : 00"
+        ohos:text_size="30fp"
+        />
+
+    <Button
+        ohos:top_padding="20fp"
+        ohos:id="$+id:button_start"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+
+        ohos:text_alignment="center"
+        ohos:text="开启"
+    />
+
+    <Button
+        ohos:top_padding="10fp"
+        ohos:id="$+id:button_pauseOrEnd"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+
+        ohos:text_alignment="center"
+        ohos:text="结束"
+        />
+
+</DirectionalLayout>
